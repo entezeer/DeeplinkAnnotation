@@ -9,7 +9,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.entezeer.annotation.DeeplinkActivity
 import com.entezeer.deeplinkannotation.databinding.ActivityMainBinding
-import com.entezeer.generated.DeeplinkHandler
+//import com.entezeer.generated.DeeplinkHandler
 
 
 @DeeplinkActivity("https://o.kg/l/a?t=wl_atmtrns&type1=od&flow1=dengi")
@@ -23,10 +23,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val deepLink = intent?.data?.toString()
-        if (deepLink != null) {
-            if (!DeeplinkHandler.navigateToActivity(this, deepLink)) {
-            }
-        }
+//        if (deepLink != null) {
+//            if (!DeeplinkHandler.navigateToActivity(this, deepLink)) {
+//            }
+//        }
 
         binding.button.setOnClickListener {
             startActivity(Intent(this, SecondActivity::class.java))
