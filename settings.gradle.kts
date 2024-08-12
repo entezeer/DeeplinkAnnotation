@@ -23,4 +23,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "DeeplinkAnnotation"
 include(":app")
-include(":deeplinkAnnotation")
+include(":annotation")
+include(":processor")
