@@ -16,6 +16,7 @@ tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
     }
 }
 
+
 dependencies {
     api(project(":annotation"))
     implementation("com.google.devtools.ksp:symbol-processing-api:1.8.0-1.0.8")

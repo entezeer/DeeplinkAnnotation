@@ -58,5 +58,5 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     implementation(project(":processor"))
-    ksp(project(":processor"))
+//    ksp(project(":processor"))
 }
