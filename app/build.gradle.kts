@@ -60,3 +60,7 @@ dependencies {
     implementation(project(":processor"))
 //    ksp(project(":processor"))
 }
+
+tasks.withType<AbstractPublishToMaven>().configureEach {
+    dependsOn(tasks.named("assembleRelease"))
+}

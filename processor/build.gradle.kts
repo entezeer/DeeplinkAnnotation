@@ -16,6 +16,17 @@ tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile> {
     }
 }
 
+publishing {
+    publications {
+        create<MavenPublication>("mavenJava") {
+            from(components["java"])
+            groupId = "com.entezeer"
+            artifactId = "deeplink-annotation"
+            version = "1.0.0"
+        }
+    }
+}
+
 
 dependencies {
     api(project(":annotation"))
