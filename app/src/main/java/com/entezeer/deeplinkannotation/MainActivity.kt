@@ -2,13 +2,10 @@ package com.entezeer.deeplinkannotation
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
-import com.entezeer.annotation.DeeplinkActivity
 import com.entezeer.deeplinkannotation.databinding.ActivityMainBinding
+import com.entezeer.processor.DeeplinkActivity
+
 //import com.entezeer.generated.DeeplinkHandler
 
 

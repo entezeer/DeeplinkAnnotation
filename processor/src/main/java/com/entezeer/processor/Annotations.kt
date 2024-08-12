@@ -1,4 +1,4 @@
-package com.entezeer.annotation
+package com.entezeer.processor
 
 @Target(AnnotationTarget.FUNCTION)
 @Retention(AnnotationRetention.RUNTIME)

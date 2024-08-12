@@ -7,8 +7,8 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.navigateUp
 import androidx.navigation.ui.setupActionBarWithNavController
-import com.entezeer.annotation.DeeplinkActivity
 import com.entezeer.deeplinkannotation.databinding.ActivitySecondBinding
+import com.entezeer.processor.DeeplinkActivity
 
 @DeeplinkActivity("https://o.kg/l/a?t=wl_atmtrn&type={processType}&flow={processFlow}")
 class SecondActivity : AppCompatActivity() {

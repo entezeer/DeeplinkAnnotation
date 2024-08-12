@@ -1,6 +1,5 @@
 package com.entezeer.processor
 
-import com.entezeer.annotation.DeeplinkActivity
 import com.google.devtools.ksp.processing.*
 import com.google.devtools.ksp.symbol.*
 import com.google.devtools.ksp.validate

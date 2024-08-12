@@ -29,7 +29,6 @@ publishing {
 
 
 dependencies {
-    api(project(":annotation"))
     implementation("com.google.devtools.ksp:symbol-processing-api:1.8.0-1.0.8")
     implementation(libs.kotlinPoet)
     implementation(libs.kotlinPoetKsp)
